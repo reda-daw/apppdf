@@ -104,15 +104,21 @@
 
     <font style="font-size: 8pt;text-align: left;">
 
-   
 
-<p>D./Dña.</p>
+ <?php
+ 
+ $directora = 'Marta Torres García';
+ $centro =93939393;
+ $localidad = 'Navalmoral de la Mata';
+ ?>
+
+<p>D./Dña. <?php echo $directora?> </p>
 
 
 <p>con D.N.I.  como Director/a del Centro educativo </p>
 
 
-<p>Código de Centro _________________ localizado en ___________________________________________________________________________</p>
+<p>Código de Centro <?php echo $centro?> localizado en <?php echo $localidad?></p>
 
 
 <p>provincia de ___________________, calle/plaza________________________________________________________________________________</p>
